@@ -29,6 +29,17 @@ For more detailed information, look at the [**subject of this project**]
 
 ### Functions from `<ctype.h>` library
 
+|                Function                      | Description                                                             |
+| ---------------------------------------------| ------------------------------------------------------------------------|
+| * [`ft_isascii`](ft_isascii.c)               | test for ASCII character.                                               |
+| * [`ft_isalnum`](ft_isalnum.c)	       | alphanumeric character test.                                            |
+| * [`ft_isalpha`](ft_isalpha.c)               | alphabetic character test.                                              |
+| * [`ft_isdigit`](ft_isdigit.c)               | decimal-digit character test.                                           |
+| * [`ft_isprint`](ft_isprint.c)               | printing character test (space character inclusive).                    |
+| * [`ft_tolower`](ft_tolower.c)               | upper case to lower case letter conversion.                             |
+| * [`ft_toupper`](ft_toupper.c)               | lower case to upper case letter conversion.                             |
+
+
 * [`ft_isascii`](ft_isascii.c)			- test for ASCII character.
 * [`ft_isalnum`](ft_isalnum.c)			- alphanumeric character test.
 * [`ft_isalpha`](ft_isalpha.c)			- alphabetic character test.
@@ -138,7 +149,7 @@ You can use any of this third party testers to test the project
 * [ska42/libft-war-machine](https://github.com/ska42/libft-war-machine)
 * [alelievr/libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|                Function                      | Description                                                             |
+| ---------------------------------------------| ------------------------------------------------------------------------|
+| * [`ft_isascii`](ft_isascii.c)               | test for ASCII character.                                               |
+| Content Cell                                 | Content Cell                                                            |
