@@ -28,15 +28,6 @@ For more detailed information, look at the [**subject of this project**]
 | [`ft_tolower`](ft_tolower.c)               | upper case to lower case letter conversion.                             |
 | [`ft_toupper`](ft_toupper.c)               | lower case to upper case letter conversion.                             |
 
-
-* [`ft_isascii`](ft_isascii.c)			- test for ASCII character.
-* [`ft_isalnum`](ft_isalnum.c)			- alphanumeric character test.
-* [`ft_isalpha`](ft_isalpha.c)			- alphabetic character test.
-* [`ft_isdigit`](ft_isdigit.c)			- decimal-digit character test.
-* [`ft_isprint`](ft_isprint.c)			- printing character test (space character inclusive).
-* [`ft_tolower`](ft_tolower.c)			- upper case to lower case letter conversion.
-* [`ft_toupper`](ft_toupper.c)			- lower case to upper case letter conversion.
-
 ### Functions from `<stdlib.h>` library
 
 * [`ft_atoi`](ft_atoi.c)		- convert ASCII string to integer.
