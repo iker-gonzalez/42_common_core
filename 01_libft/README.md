@@ -138,4 +138,4 @@ You can use any of this third party testers to test the project
 * [ska42/libft-war-machine](https://github.com/ska42/libft-war-machine)
 * [alelievr/libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
-| 9   | [ft_strlcpy](https://github.com/hanshazairi/42-libft/blob/master/ft_strlcpy.c) |   | 9   | [ft_putendl_fd](https://github.com/hanshazairi/42-libft/blob/master/ft_putendl_fd.c) |   | 9   | [ft_lstmap](https://github.com/hanshazairi/42-
+| No  | Libc Functions                                                                 |   | No  | Additional Functions                                                                 |   | No  | Bonus Functions      
