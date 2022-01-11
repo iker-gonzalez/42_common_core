@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-	<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
+	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
