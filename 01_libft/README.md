@@ -1,4 +1,3 @@
-# 01) Libft 📒
 
 <h1 align="center">
 	🧰 libft
