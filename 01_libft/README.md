@@ -1,10 +1,10 @@
 
-# 📚 libft
+# 🧱 libft
 
-<p align="left">
+<p align="center">
 	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
 
-<h3 align="left">
+<h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
 	<a href="#%EF%B8%8F-usage">Usage</a>
@@ -23,7 +23,7 @@
 	The library will help you for your future projects in C. Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
-For more detailed information, look at the [**subject of this project.**](https://github.com/ikgonzal/42_cursus/blob/main/01_libft/subject/en_subject.pdf)
+For more detailed information, look at the [**subject of this project**]
 
 ## List of functions:
 
@@ -137,3 +137,5 @@ You can use any of this third party testers to test the project
 * [Tripouille/libfTester](https://github.com/Tripouille/libftTester)
 * [ska42/libft-war-machine](https://github.com/ska42/libft-war-machine)
 * [alelievr/libft-unit-test](https://github.com/alelievr/libft-unit-test)
+
+| 9   | [ft_strlcpy](https://github.com/hanshazairi/42-libft/blob/master/ft_strlcpy.c) |   | 9   | [ft_putendl_fd](https://github.com/hanshazairi/42-libft/blob/master/ft_putendl_fd.c) |   | 9   | [ft_lstmap](https://github.com/hanshazairi/42-
