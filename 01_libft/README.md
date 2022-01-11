@@ -1,8 +1,6 @@
 
 # 📚 libft
 
-<b>C library with own functions</b>
-
 <h3 align="left">
 	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
