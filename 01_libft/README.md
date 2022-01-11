@@ -18,7 +18,7 @@
 	The library will help you for your future projects in C. Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
-For more detailed information, look at the [**subject of this project**]
+For more detailed information, look at the [**subject of this project**](https://github.com/ikgonzal/42_cursus/blob/main/01_libft/subject/en_subject.pdf)
 
 ## List of functions:
 
