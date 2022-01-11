@@ -50,7 +50,7 @@ I have just put them in folders and modified the Makefile to have a better organ
 
 ### Functions from `<strings.h>` library
 
-* [`ft_bzero`](sources/ft_bzero.c)		- write zeroes to a byte string.
+* [`ft_bzero`](ft_bzero.c)		- write zeroes to a byte string.
 * [`ft_memset`](sources/ft_memset.c)		- write a byte to a byte string.
 * [`ft_memchr`](sources/ft_memchr.c)		- locate byte in byte string.
 * [`ft_memcmp`](sources/ft_memcmp.c)		- compare byte string.
