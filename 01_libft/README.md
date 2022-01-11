@@ -138,7 +138,7 @@ You can use any of this third party testers to test the project
 * [ska42/libft-war-machine](https://github.com/ska42/libft-war-machine)
 * [alelievr/libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
-
-| No  | Libc Functions                                                                 |   | No  | Additional Functions                                                                 |   | No  | Bonus Functions                                                                          |
-| :-: | :----------------------------------------------------------------------------- | - | :-: | :----------------------------------------------------------------------------------- | - | :-: | :--------------------------------------------------------------------------------------- |
-| 1   | [ft_memset](https://github.com/hanshazairi/42-libft/blob/master/ft_memset.c)   |   | 1   | [ft_substr](https://github.com/hanshazairi/42-libft/blob/master/ft_substr.c)         |   | 1   | [ft_lstnew](https://github.com/hanshazairi/42-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
