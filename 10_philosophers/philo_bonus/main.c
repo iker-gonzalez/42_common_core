@@ -6,7 +6,7 @@
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 11:57:39 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 11:18:24 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/11 13:26:32 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,5 +86,4 @@ int	main(int argc, char **argv)
 	status = NULL;
 	while (++i < th.nbr_philos)
 		waitpid(-1, status, 0);
-	//ft_destroy_mutex(&th);
 }
