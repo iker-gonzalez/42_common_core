@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	<b><i>Development repo for 42cursus' libft project</i></b><br>
+	<b><i>C library created with own functions</i></b><br>
 </p>
 
 <p align="center">
@@ -16,8 +16,6 @@
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
-	<span> · </span>
-	<a href="#-index">Index</a>
 	<span> · </span>
 	<a href="#%EF%B8%8F-usage">Usage</a>
 	<span> · </span>
