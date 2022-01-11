@@ -1,5 +1,5 @@
 
-#📚 libft
+# 📚 libft
 
 <p align="left">
 	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
