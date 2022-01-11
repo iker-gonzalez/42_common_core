@@ -33,7 +33,7 @@
 
 For more detailed information, look at the [**subject of this project.**](https://github.com/ikgonzal/42_cursus/blob/main/01_libft/subject/en_subject.pdf)
 
-	🚀 TLDR: this project consists of coding basic C functions (see below), which are then compiled
+	🚀 This project consists of coding basic C functions (see below), which are then compiled
 	into a library for use in other projects of the cursus.
 
 ## List of functions:
