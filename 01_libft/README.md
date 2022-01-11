@@ -1,7 +1,5 @@
 
-<h1 align="center">
-	🧰 libft
-</h1>
+# 🧱 libft
 
 <p align="center">
 	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
