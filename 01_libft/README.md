@@ -1,10 +1,10 @@
 
-# 🧱 libft
+#📚 libft
 
-<p align="center">
+<p align="left">
 	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
 
-<h3 align="center">
+<h3 align="left">
 	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
 	<a href="#%EF%B8%8F-usage">Usage</a>
