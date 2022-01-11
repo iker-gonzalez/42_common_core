@@ -1,16 +1,5 @@
 
-# 🧱 libft
-
-<p align="center">
-	<b><i>C LIBRARY WITH OWN FUNCTIONS</i></b><br>
-
-<h3 align="center">
-	<a href="#%EF%B8%8F-about">About</a>
-	<span> · </span>
-	<a href="#%EF%B8%8F-usage">Usage</a>
-	<span> · </span>
-	<a href="#-testing">Testing</a>
-</h3>
+# 📚 libft
 
 ---
 
