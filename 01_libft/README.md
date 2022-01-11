@@ -1,7 +1,7 @@
 
 # 📚 libft
 
-## C library with own functions
+<b>C library with own functions</b>
 
 ## 💡 About the project
 
