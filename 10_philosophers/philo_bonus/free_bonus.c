@@ -1,31 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   free.c                                             :+:      :+:    :+:   */
+/*   free_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 13:17:24 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 11:14:42 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 11:44:13 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
-/*
-int	ft_destroy_mutex(t_th *th)
-{
-	int	i;
+#include "philo_bonus.h"
 
-	pthread_mutex_destroy(&th->init_mutex);
-	pthread_mutex_destroy(&th->dead_mutex);
-	i = 0;
-	while (i < th->nbr_philos)
-	{
-		pthread_mutex_destroy(&th->eat_mutex[i]);
-		i++;
-	}
-	free(th->eat_mutex);
-	free(th->th);
+int	ft_destroy_sem(t_th *th)
+{
+	sem_close(th->init);
+	sem_close(th->forks);
+	sem_close(th->death);
+	free(th->pid);
 	return (0);
 }
-*/

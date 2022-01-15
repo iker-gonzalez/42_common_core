@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_time.c                                         :+:      :+:    :+:   */
+/*   get_time_bonus.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 18:36:59 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/08 17:07:18 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 11:44:29 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <sys/time.h>
-#include "philo.h"
+#include "philo_bonus.h"
 
 int	get_time_diff(struct timeval ta)
 {

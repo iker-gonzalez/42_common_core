@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_status.c                                  :+:      :+:    :+:   */
+/*   ft_print_status_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/08 17:47:53 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 10:05:59 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 12:38:54 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philo_bonus.h"
 
 char	*ft_status_conversion(char c)
 {
@@ -36,4 +36,6 @@ void	ft_print_status(t_ph *ph, char c)
 	str = ft_status_conversion(c);
 	if (!ph->th->died && ph->meals != 0)
 		printf("%d %d %s", get_time_diff(ph->t_born), ph->id, str);
+	else
+		exit (1);
 }

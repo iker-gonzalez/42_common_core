@@ -1,22 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   philo.h                                            :+:      :+:    :+:   */
+/*   philo_bonus.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 12:46:09 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 11:10:55 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 12:39:37 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PHILO_H
-# define PHILO_H
+#ifndef PHILO_BONUS_H
+# define PHILO_BONUS_H
 
 # include <semaphore.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
+# include <signal.h>
 
 typedef struct s_threads
 {
@@ -25,8 +26,10 @@ typedef struct s_threads
 	int		t_eat;
 	int		t_sleep;
 	int		died;
-	sem_t	s_eat;
-	sem_t	s_dead;
+	pid_t	*pid;
+	sem_t	*init;
+	sem_t	*forks;
+	sem_t	*death;
 }					t_th;
 
 typedef struct s_philosopher
@@ -42,10 +45,10 @@ typedef struct s_philosopher
 ///////INITIALIZE///////
 void		init_th(t_th *th, char **argv);
 void		init_ph(t_ph *ph, t_th *th, int argc, char **argv);
-void		init_structs_forks(t_th *th, t_ph *ph, int argc, char **argv);
+void		init_structs(t_th *th, t_ph *ph, int argc, char **argv);
 
-///////FORKS////////
-void		ft_forks_mutex(t_ph *ph);
+///////FREE////////
+int			ft_destroy_sem(t_th *th);
 
 ///////UTILS////////
 intptr_t	ft_atoi(const char *str);
@@ -59,8 +62,10 @@ void		ft_check_forks(t_ph *ph);
 void		ft_eat(t_ph *ph);
 int			ft_die(t_ph *ph);
 void		ft_caseof1(t_ph *ph);
+void		ft_kill_them_all(t_ph *ph);
+void		ft_check_pid(t_ph *ph);
 
 ////////FREE//////////
-int			ft_destroy_mutex(t_th *th);
+int			ft_destroy_sem(t_th *th);
 
 #endif

@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft_utils.c                                      :+:      :+:    :+:   */
+/*   ft_atoi_bonus.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 16:52:05 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/07 12:03:20 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 11:44:21 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philo_bonus.h"
 
 int	ft_result(int k, const char *str, int i)
 {
@@ -48,4 +48,3 @@ intptr_t	ft_atoi(const char *str)
 		return (ft_result(k, str, i));
 	return (a);
 }
-

@@ -6,7 +6,7 @@
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 16:52:05 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/07 12:03:20 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 10:49:07 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,3 @@ intptr_t	ft_atoi(const char *str)
 		return (ft_result(k, str, i));
 	return (a);
 }
-

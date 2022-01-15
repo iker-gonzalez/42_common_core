@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   main_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 11:57:39 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 13:26:32 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 11:44:44 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philo_bonus.h"
 #include <sys/time.h>
 
 int	ft_odd_pair(t_ph *ph)
@@ -37,6 +37,7 @@ void	*routine(void *arg)
 	t_ph		ph;
 
 	ph = *(t_ph *)arg;
+	sem_post(ph.th->init);
 	if (ph.th->nbr_philos == 1)
 	{
 		ft_caseof1(&ph);
@@ -60,30 +61,42 @@ void	*routine(void *arg)
 	return (NULL);
 }
 
+void	ft_create_process(t_ph *ph)
+{
+	int	i;
+
+	i = -1;
+	while (++i < ph->th->nbr_philos)
+	{	
+		ph->th->pid[i] = fork();
+		ph->id = i + 1;
+		if (ph->th->pid[i] == 0)
+			routine(ph);
+	}
+}
+
 int	main(int argc, char **argv)
 {
 	t_th	th;
 	t_ph	ph;
 	int		i;
-	int		*pid;
-	int		*status;
+	int		status;
 
 	if (argc != 5 && argc != 6)
 	{
 		write(1, "Error\n", 6);
 		return (1);
 	}
-	init_structs_forks(&th, &ph, argc, argv);
-	pid = malloc((sizeof (int)) * th.nbr_philos);
+	init_structs(&th, &ph, argc, argv);
+	sem_wait(th.init);
+	ft_create_process(&ph);
 	i = -1;
 	while (++i < th.nbr_philos)
-	{	
-		pid[i] = fork();
-		if (pid == 0)
-			routine(&ph);
+	{
+		waitpid(-1, &status, 0);
+		if (status != 0)
+			ft_kill_them_all(&ph);
 	}
-	i = -1;
-	status = NULL;
-	while (++i < th.nbr_philos)
-		waitpid(-1, status, 0);
+	ft_destroy_sem(&th);
+	return (0);
 }

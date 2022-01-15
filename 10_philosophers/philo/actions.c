@@ -6,7 +6,7 @@
 /*   By: ikgonzal <ikgonzal@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/21 11:58:57 by ikgonzal          #+#    #+#             */
-/*   Updated: 2022/01/11 10:03:26 by ikgonzal         ###   ########.fr       */
+/*   Updated: 2022/01/13 10:48:50 by ikgonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,6 @@ int	ft_die(t_ph *ph)
 	if (ph->stamina < get_time_diff(ph->t_born) - ph->t_last_meal
 		&& !ph->th->died)
 	{
-		//pthread_mutex_lock(&ph->th->print_mutex);
 		ft_print_status(ph, 'd');
 		ph->th->died = 1;
 	}
