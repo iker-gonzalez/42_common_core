@@ -1,2 +1,2 @@
-![42 School logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/800px-42_Logo.svg.png)
+![42 School logo](https://biolibre.fr/media/cache/articleMainImg/images/articles/school_42.jpeg)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
