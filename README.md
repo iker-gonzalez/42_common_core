@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-	<b><i>Projects developed at <a href="https://www.42sp.org.br/">42 São Paulo</a> programming school.</i></b><br>
-	Start date: 20/jan/2020 - the very first 42 class of South America!
+	<b><i>Projects developed at <a href="https://www.42urduliz.com/">42 Urduliz</a> programming school.</i></b><br>
+	Start date: 12/april/2021 - after gaining entrance the very first piscine of the Basque Country!
 </p>
 
 <p align="center">
@@ -33,9 +33,10 @@
 	free for whoever is approved in its selection process* - the so-called "Piscine" - becoming
 	thus "cadets" (42's students).
 
-\* For further information about 42's **selection process** (the "Piscine"), please visit the [C Piscine repo](https://github.com/appinha/42sp-piscine).
+\* For further information about 42's **selection process** (the "Piscine"), please visit the C Piscine repo (collecting work).
 
-[![Photo of a 42saopaulo's lab](42saopaulo.jpg)](https://www.42sp.org.br/)
+
+[![Photo of 42 Urduliz cluster]](https://bilbaohiria.com/wp-content/uploads/2020/11/grupo-42-telefonica-urduliz-1024x576.jpg.webp)
 
 ## 🛠️ Skills developed at 42cursus
 
@@ -46,7 +47,6 @@
 	* Git
 	* Networks
 	* Docker
-	* SQL
 	* Web (HTML, CSS, Wordpress)
 	* Computer graphics
 	* Assembly language
