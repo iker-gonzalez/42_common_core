@@ -36,7 +36,7 @@
 \* For further information about 42's **selection process** (the "Piscine"), please visit the C Piscine repo (collecting work).
 
 
-[![Photo of 42 Urduliz cluster]](https://bilbaohiria.com/wp-content/uploads/2020/11/grupo-42-telefonica-urduliz-1024x576.jpg.webp)
+![Photo of 42 Urduliz cluster](https://bilbaohiria.com/wp-content/uploads/2020/11/grupo-42-telefonica-urduliz-1024x576.jpg.webp)
 
 ## 🛠️ Skills developed at 42cursus
 
