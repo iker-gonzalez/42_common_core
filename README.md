@@ -1,4 +1,6 @@
-<img align="center" src="https://github.com/iker-gonzalez/42_cursus/blob/main/assets/42-logo.png">
+<p align="center">
+	<img align="center" src="https://github.com/iker-gonzalez/42_cursus/blob/main/assets/42-logo.png">
+</p>
 
 <h1 align="center">
 	42cursus
