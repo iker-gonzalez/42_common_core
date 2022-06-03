@@ -1,3 +1,6 @@
 [submodule "01_libft"]
 	path = 01_libft
 	url = https://github.com/iker-gonzalez/libft.git
+[submodule "02_get_next_line"]
+	path = 02_get_next_line
+	url = https://github.com/iker-gonzalez/get_next_line.git
