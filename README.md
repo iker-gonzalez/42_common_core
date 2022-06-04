@@ -50,8 +50,6 @@
 	* Networks
 	* Linux
 
--- among others (find below the complete [curriculum](#-42s-galaxy-curriculum)).
-
 ### Soft-skills
 
 	# Self-learning and proactivity
