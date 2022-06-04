@@ -7,3 +7,15 @@
 [submodule "03_ft_printf"]
 	path = 03_ft_printf
 	url = https://github.com/iker-gonzalez/ft_printf.git
+[submodule "06_push_swap"]
+	path = 06_push_swap
+	url = https://github.com/iker-gonzalez/push_swap.git
+[submodule "07_so_long"]
+	path = 07_so_long
+	url = https://github.com/iker-gonzalez/so_long.git
+[submodule "08_minitalk"]
+	path = 08_minitalk
+	url = https://github.com/iker-gonzalez/minitalk.git
+[submodule "10_philosophers"]
+	path = 10_philosophers
+	url = https://github.com/iker-gonzalez/philosophers.git
