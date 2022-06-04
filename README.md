@@ -12,11 +12,11 @@
 </p>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/appinha/42cursus?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/appinha/42cursus?color=blueviolet" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/appinha/42cursus?color=blue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/appinha/42cursus?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/appinha/42cursus?color=brightgreen" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/iker-gonzalez/42_cursus?color=blueviolet" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/iker-gonzalez/42_cursus?color=blueviolet" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/iker-gonzalez/42_cursus?color=blue" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/iker-gonzalez/42_cursus?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/iker-gonzalez/42_cursus?color=brightgreen" />
 </p>
 
 <h3 align="center">
@@ -24,7 +24,7 @@
 	<span> · </span>
 	<a href="#%EF%B8%8F-skills-developed-at-42cursus">Skills developed at 42cursus</a>
 	<span> · </span>
-	<a href="#-42s-galaxy-curriculum">42's galaxy (curriculum)</a>
+	<a href="#-42-projects">42 projects</a>
 </h3>
 
 ## 🗣️ About 42
