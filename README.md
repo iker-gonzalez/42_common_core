@@ -73,7 +73,7 @@
 # 42 projects
 
 | Index |      Project     | Mark |     Note     |   With    |     Language    |
-|:-----:|:----------------:|:----:|:------------:|:---------:|:---------------:|:-:|
+|:-----:|:----------------:|:----:|:------------:|:---------:|:---------------:|
 |   1   |       libft      | 125% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   2   |   get_next_line  | 115% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   3   |     ft_printf    | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
