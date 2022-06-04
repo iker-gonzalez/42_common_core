@@ -73,46 +73,39 @@
 		demands excellent time management skills and resiliency for not "drowning" amid the
 		massive load of work demanded by the program.
 
-## 🌌 42's galaxy (curriculum)
+# 42 projects
 
-**42cursus** comprises two groups of projects: the first one being known as _"inner circle"_ and the second one, _"outer treks"_ - due to the **Holy Graph** layout (see image below).
-
-The **inner circle** is the basic curriculum, with all projects being mandatory to attain level 7 - which is the minimum level required for activities such as internships and interchange.
-
-The **outer treks** is a collection of diverse project trails in subjects ranging from operational systems to web development which allows cadets to specialize on whatever subject they prefer.
-
-![42's galaxy](galaxy.png)
-
-The table below presents the cursus curriculum in the chronological order in which it was (or is to be) completed by me - projects order and corresponding attained level may vary among students.
-
-### Inner Circle (basic curriculum)
-
-|CIRCLE	|PROJECT							|TECHNOLOGY				|EXPERIENCE		|STATUS						|ATTAINED LEVEL	|
-|:-:	|:--								|:--					|--:			|:-:						|:--			|
-|00		|[Libft](https://github.com/appinha/42cursus-00-Libft)|C						|462 XP			|![Project Score - Libft](https://badge42.herokuapp.com/api/project/apuchill/Libft)	|level 1 - 3%	|
-|:dizzy:|									|						|**= 462 XP**	|							|				|
-|01		|[netwhat](01-netwhat/)			|Networks				|462 XP			|![Project Score - netwhat](https://badge42.herokuapp.com/api/project/apuchill/netwhat)	|level 1 - 23%	|
-|01		|[get_next_line](https://github.com/appinha/42cursus-01-get_next_line)|C						|882 XP			|![Project Score - get_next_line](https://badge42.herokuapp.com/api/project/apuchill/get_next_line)	|level 1 - 69%	|
-|01		|[ft_printf](https://github.com/appinha/42cursus-01-ft_printf)|C						|882 XP			|![Project Score - ft_printf](https://badge42.herokuapp.com/api/project/apuchill/ft_printf)	|level 2 - 5%	|
-|:dizzy:|									|						|**= 2.226 XP**	|							|				|
-|02		|[ft_server](https://github.com/appinha/42cursus-02-ft_server)|docker, .sh, web, SQL	|1.722 XP		|![Project Score - ft_server](https://badge42.herokuapp.com/api/project/apuchill/ft_server)	|level 2 - 32%	|
-|02		|[miniRT](https://github.com/appinha/42cursus-02-miniRT) or cub3d	|C, Computer Graphics	|4.620 XP		|![Project Score - miniRT](https://badge42.herokuapp.com/api/project/apuchill/miniRT)							|level 3 - 6%	|
-|02		|Exam Rank 02						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 10.962 XP**|							|				|
-|03		|[libasm](https://github.com/appinha/42cursus-03-libasm)								|Assembly				|966 XP			|![Project Score - libasm](https://badge42.herokuapp.com/api/project/apuchill/libasm)|level 3 - 27%	|
-|03		|minishell							|C						|2.814 XP		|							|				|
-|03		|ft_services						|docker, Kubernetes		|1.008 XP		|							|				|
-|03		|Exam Rank 03						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 4.788 XP**	|							|				|
-|04		|Philosophers						|C						|3.360 XP		|							|				|
-|04		|CPP Modules (9)					|C++					|9.660 XP		|							|				|
-|04		|Exam Rank 04						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 13.020 XP**|							|				|
-|05		|ft_containers						|C++					|5.796 XP		|							|				|
-|05		|webserv							|C++					|17.304 XP		|							|				|
-|05		|ft_irc								|C++					|17.304 XP		|							|				|
-|05		|Exam Rank 05						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 40.404 XP**|							|				|
-|06		|ft_transcendence					|?						|24.360 XP		|							|				|
-|06		|Exam Rank 06						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 24.360 XP**|							|				|
+|      Project     | Mark | Retry | Took |    Note    |       With      | Language |
+|:----------------:|:----:|:-----:|:----:|:----------:|:---------------:|:-:|
+|       libft      | 125% |   3   |  5d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   get_next_line  | 115% |   1   |  1d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|      netwhat     | 100% |   2   |  0d  |            |                 | n/a |
+|     ft_printf    | 100% |   2   |  3d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|     ft_server    | 100% |   1   |  8h  |    quick   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="40" height="40"/> |
+|       cub3d      | 109% |   1   |  4d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|      libasm      | 125% |   1   |  5d  |  very cool |                 | assembly |
+|    ft_services   | 100% |   1   |  3w  |   boring   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="40" height="40"/> |
+|     minishell    | 100% |   1   |  5d  |    cool    |     rosanche    | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|  CPP Modules/00  | 100% |   2   |  6h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/01  | 100% |   1   |  1d  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/02  | 100% |   1   | 10h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/03  | 100% |   1   |  8d  |   boring   |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/04  | 100% |   1   | 10h  | repetitive |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/05  | 100% |   1   | 14h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/06  | 100% |   1   |  3h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/07  | 100% |   1   |  4h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|  CPP Modules/08  | 100% |   1   | 11h  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|   Philosophers   | 100% |   1   |  3d  |    cool    |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   ft_containers  | 100% |   1   |  1M  |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|      webserv     | 100% |   1   |  2M  |  very cool | atetu, rosanche | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+| ft_transcendence | 100% |   1   |  4M  |  very cool | atetu, bmellouk | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg" alt="nuxtjs" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" alt="mysql" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="typescript" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="40" height="40"/> |
+|    ft_hangouts   | 100% |   1   |  3d   |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg" alt="java" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-plain.svg" alt="android" width="40" height="40"/> |
+|   avaj-launcher  | 114% |   4   |  2w   |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg" alt="java" width="40" height="40"/> |
+|   Internship I   |  96% |   1   |  6M   |            |                 | n/a |
+|    snow-crash    | 125% |   1   |  3d   |    cool    |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-plain.svg" alt="bash" width="40" height="40"/> |
+|     fract-ol     |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|      pipex       |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|    push_swap     |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|       scop       |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opengl/opengl-plain.svg" alt="opengl" width="40" height="40"/> |
+|        nm        |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> |
+|    computorv1    |  WIP |       |       |            |                 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
