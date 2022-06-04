@@ -48,10 +48,7 @@
 	* Shell scripting
 	* Git
 	* Networks
-	* Docker
-	* Web (HTML, CSS, Wordpress)
-	* Computer graphics
-	* Assembly language
+	* Linux
 
 -- among others (find below the complete [curriculum](#-42s-galaxy-curriculum)).
 
