@@ -4,3 +4,6 @@
 [submodule "02_get_next_line"]
 	path = 02_get_next_line
 	url = https://github.com/iker-gonzalez/get_next_line.git
+[submodule "03_ft_printf"]
+	path = 03_ft_printf
+	url = https://github.com/iker-gonzalez/ft_printf.git
