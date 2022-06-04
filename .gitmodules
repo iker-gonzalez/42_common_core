@@ -22,3 +22,6 @@
 [submodule "11_minishell"]
 	path = 11_minishell
 	url = https://github.com/iker-gonzalez/minishell.git
+[submodule "14_cpp_piscine"]
+	path = 14_cpp_piscine
+	url = https://github.com/iker-gonzalez/cpp_piscine.git
