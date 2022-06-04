@@ -19,3 +19,6 @@
 [submodule "10_philosophers"]
 	path = 10_philosophers
 	url = https://github.com/iker-gonzalez/philosophers.git
+[submodule "11_minishell"]
+	path = 11_minishell
+	url = https://github.com/iker-gonzalez/minishell.git
