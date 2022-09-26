@@ -25,3 +25,9 @@
 [submodule "14_cpp_piscine"]
 	path = 14_cpp_piscine
 	url = https://github.com/iker-gonzalez/cpp_piscine.git
+[submodule "cub3d"]
+	path = cub3d
+	url = https://github.com/iker-gonzalez/cub3d
+[submodule "15_cub3d"]
+	path = 15_cub3d
+	url = https://github.com/iker-gonzalez/cub3d
