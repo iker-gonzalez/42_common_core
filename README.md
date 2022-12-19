@@ -91,4 +91,5 @@
 |   14  |  CPP Modules/06  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |   14  |  CPP Modules/07  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |   14  |  CPP Modules/08  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|   15   |   cub3D         | 105% |              |  ingonzal     | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 
