@@ -72,9 +72,11 @@
 
 | Index |      Project     | Mark | Description  |   With    |     Language    |
 |:-----:|:----------------:|:----:|:------------:|:---------:|:---------------:|
-|   1   |       [libft](https://github.com/iker-gonzalez/ft_printf)      | 111% | Recoding of the simplified version of the printf function in C |      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   1   |       [libft](https://github.com/iker-gonzalez/libft)     | 111% | Basic C functions compiled into a library used throughout the 42 cursus.
+
+  |      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   2   |   [get_next_line](https://github.com/iker-gonzalez/get_next_line)  | 125% | C function that returns a line ending with a newline, read from a file descriptor.            |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   3   |     ft_printf    | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   3   |     [ft_printf](https://github.com/iker-gonzalez/ft_printf)    | 100% | Recoding of the simplified version of the printf function in C             |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   4   |   born2beroot    | 125% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   6   |    push_swap     | 86%  |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   7   |      so_long     | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
