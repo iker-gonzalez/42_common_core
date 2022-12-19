@@ -72,8 +72,7 @@
 
 | Index |      Project     | Mark | Description  |   With    |     Language    |
 |:-----:|:----------------:|:----:|:------------:|:---------:|:---------------:|
-|   1   |       libft      | 111% | Recoding of the simplified version of the printf function in C
-|           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
+|   1   |       libft      | 111% | Recoding of the simplified version of the printf function in C |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   2   |   get_next_line  | 125% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   3   |     ft_printf    | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   4   |   born2beroot    | 125% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
