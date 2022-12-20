@@ -82,15 +82,7 @@
 |   10  |   [philosophers](https://github.com/iker-gonzalez/philosophers)   | 125% |  Classic dining philosophers problem resolved using multithreading with mutex (mandatory) and multiprocessing with semafores (bonus            |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   11  |     minishell    | 95%  |  A Bash-inspired shell with a prompt and a working history            | jsolinis  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   13  |   net_practice   | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
-|   14  |  CPP Modules/00  | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/01  | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/02  | 80%  |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/03  | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/04  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/05  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/06  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/07  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
-|   14  |  CPP Modules/08  |      |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
+|   14  |  CPP Modules  | 100% |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |   15   |   cub3D         | 105% |              |  ingonzal     | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg" alt="c" width="40" height="40"/> |
 |   16  |  ft_containers  |  ongoing    |              |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 
