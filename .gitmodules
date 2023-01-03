@@ -31,3 +31,6 @@
 [submodule "15_cub3d"]
 	path = 15_cub3d
 	url = https://github.com/iker-gonzalez/cub3d
+[submodule "ft_containers"]
+	path = ft_containers
+	url = https://github.com/iker-gonzalez/ft_containers
