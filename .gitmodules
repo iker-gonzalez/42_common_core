@@ -34,3 +34,7 @@
 [submodule "ft_containers"]
 	path = ft_containers
 	url = https://github.com/iker-gonzalez/ft_containers
+[submodule "webserv"]
+	path = webserv
+	url = https://github.com/iker-gonzalez/webserv.git
+	branch = main
