@@ -5,9 +5,9 @@
 #define WRONG_ARG_MSG "Wrong number of arguments\n"
 #define FATAL_ERROR_MSG "Fatal error\n"
 #define IP_ADDRESS 2130706433 // 127.0.0.1
-#define BACKLOG_SIZE 128
+#define BACKLOG_SIZE 128 // Maximum number of clients to listen simultaneously (the surpluss will join a queue)
 
-// Declare file descriptor sets for reading, writing and master set
+// File descriptor sets for reading, writting and master
 fd_set  fds, rfds, wfds;
 int     fdmax = 0; // Maximum file descriptor number
 int     id[10000]; // Array to store client IDs
@@ -17,11 +17,11 @@ char    rbuf[1024]; // Buffer to read client messages
 char    wbuf[42]; // Buffer to write server messages
 
 // Function to send a message to all clients except the sender
-void notify(int from, char* s)
+void notify(int from, char *msg)
 {
-    for(int fd = 0; fd <= fdmax; fd++)
+    for (int fd = 0; fd <= fdmax; fd++)
         if(FD_ISSET(fd, &wfds) && fd != from)
-            send(fd, s, strlen(s), 0);
+            send(fd, msg, strlen(msg), 0);
 }
 
 // Function to add a new client
@@ -29,17 +29,18 @@ void add_client(int fd)
 {
     fdmax = fd > fdmax ? fd : fdmax; // Update maximum file descriptor number
     id[fd] = clients++; // Assign an ID to the new client
-    msg[fd] = NULL; // Initialize the client's message to NULL
+    msg[fd] = NULL; // Initialize the client's messages to NULL
     FD_SET(fd, &fds); // Add the new client to the master set
     sprintf(wbuf, "server: client %d just arrived\n", id[fd]); // Prepare the server message
     notify(fd, wbuf); // Notify all clients about the new client
+
 }
 
 // Function to remove a client
 void remove_client(int fd)
 {
-    sprintf(wbuf, "server: client %d just left\n", id[fd]); // Prepare the server message
-    notify(fd, wbuf); // Notify all clients about the client leaving
+    sprintf(wbuf, "server: client %d just left\n,", id[fd]); // Prepare the server message
+    notify(fd, wbuf); // Notify all the clients about the client leaving
     free(msg[fd]); // Free the memory allocated for the client's message
     msg[fd] = NULL; // Set the client's message to NULL
     FD_CLR(fd, &fds); // Remove the client from the master set
@@ -49,22 +50,25 @@ void remove_client(int fd)
 // Function to concatenate two strings
 char* str_join(char *buf, char *add)
 {
-    char    *newbuf;
-    int     len;
+    // Calculate the length of the new string
+    size_t len = (buf ? strlen(buf) : 0) + strlen(add) + 1;
 
-    if (buf == 0)
-        len = 0;
+    // Allocate memory for the new string
+    char *newbuf = malloc(len * sizeof(*newbuf));
+    if (!newbuf)
+        return NULL;
+
+    // Copy the original string and the additional string into the new string
+    if (buf)
+        strcpy(newbuf, buf);
     else
-        len = strlen(buf);
-    newbuf = malloc(sizeof(*newbuf) * (len + strlen(add) + 1));
-    if (newbuf == 0)
-        return (0);
-    newbuf[0] = 0;
-    if (buf != 0)
-        strcat(newbuf, buf);
-    free(buf);
+        newbuf[0] = '\0';
     strcat(newbuf, add);
-    return (newbuf);
+
+    // Free the original string
+    free(buf);
+
+    return newbuf;
 }
 
 // Function to extract a message from a buffer
@@ -74,7 +78,7 @@ int extract_message(char **buf, char **msg)
     int i;
 
     *msg = 0;
-    if (*buf == 0)
+    if (*buf = 0)
         return (0);
     i = 0;
     while((*buf)[i])
@@ -83,7 +87,7 @@ int extract_message(char **buf, char **msg)
         {
             newbuf = calloc(1, sizeof(*newbuf) * (strlen(*buf + i + 1) + 1));
             if (newbuf == 0)
-                return (-1);
+                reutnr (-1);
             strcpy(newbuf, *buf + i + 1);
             *msg = *buf;
             (*msg)[i + 1] = 0;
@@ -95,24 +99,22 @@ int extract_message(char **buf, char **msg)
     return (0);
 }
 
-// Main function
-int main (int argc, char** argv)
+int main (int argc, char **argv)
 {
-    // Check if the number of arguments is correct
     if (argc != 2)
     {
         write(2, WRONG_ARG_MSG, strlen(WRONG_ARG_MSG));
         exit(1);
     }
 
-    // Initialize the master set
+    //Initialize the master set of fds
     FD_ZERO(&fds);
 
     // Create a socket
     fdmax = socket(AF_INET, SOCK_STREAM, 0);
     if (fdmax < 0)
     {
-        write(2, FATAL_ERROR_MSG, strlen(FATAL_ERROR_MSG));
+        write (2, FATAL_ERROR_MSG, strlen(FATAL_ERROR_MSG));
         exit(1);
     }
     FD_SET(fdmax, &fds); // Add the socket to the master set
@@ -133,12 +135,12 @@ int main (int argc, char** argv)
     }
 
     // Main loop
-    while(1)
+    while (1)
     {
         // Copy the master set to the read and write sets
         rfds = wfds = fds;
 
-        // Wait for an event on one of the sockets
+        // Wait for an event on one of the socket
         if (select(fdmax + 1, &rfds, &wfds, NULL, NULL) < 0)
         {
             write(2, FATAL_ERROR_MSG, strlen(FATAL_ERROR_MSG));
@@ -169,21 +171,23 @@ int main (int argc, char** argv)
                 int ret = recv(fd, rbuf, 1024, 0);
                 if (ret <= 0)
                 {
-                    remove_client(fd); // Remove the client
+                    remove_client(fd);
                     break;
                 }
                 rbuf[ret] = '\0';
                 msg[fd] = str_join(msg[fd], rbuf); // Append the received data to the client's message
-                char* msj;
+                
+                char *msg;
                 // Extract all messages from the client's data
-                while(extract_message(&(msg[fd]), &msj))
+                while(extract_message(&(msg[fd]), &msg))
                 {
                     sprintf(wbuf, "client %d: ", id[fd]); // Prepare the server message
-                    notify(fd, wbuf); // Notify all clients about the client's message
-                    notify(fd, msj); // Notify all clients about the client's message
-                    free(msj); // Free the memory allocated for the message
-                    msj = NULL;
+                    notify(fd, wbuf);
+                    notify(fd, msg);
+                    free(msg);
+                    msg = NULL;
                 }
+
             }
         }
     }
