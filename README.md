@@ -44,7 +44,8 @@
 
 ### Hard-skills
 
-	* C/C++ language, Makefile
+	* C
+ 	* C++
 	* Docker
 	* Shell scripting
 	* Git
