@@ -47,3 +47,6 @@
 [submodule "20_ft_transcendence"]
 	path = 20_ft_transcendence
 	url = https://github.com/iker-gonzalez/ft_transcendence.git
+[submodule "17_ft_containers"]
+	path = 17_ft_containers
+	url = https://github.com/iker-gonzalez/ft_containers.git
