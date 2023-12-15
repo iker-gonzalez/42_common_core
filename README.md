@@ -50,6 +50,13 @@
 	* Git
 	* Networks
 	* Linux
+ 	* TypeScript
+  	* React
+   	* OAuth
+    	* Algorithms
+     	* Data Structures
+      	* Databases
+       	* Virtualization
 
 ### Soft-skills
 
