@@ -38,3 +38,6 @@
 	path = webserv
 	url = https://github.com/iker-gonzalez/webserv.git
 	branch = main
+[submodule "19_inception"]
+	path = 19_inception
+	url = https://github.com/iker-gonzalez/inception
