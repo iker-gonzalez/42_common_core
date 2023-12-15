@@ -3,12 +3,12 @@
 </p>
 
 <h1 align="center">
-	42cursus
+	42 common core
 </h1>
 
 <p align="center">
-	<b><i>Projects developed at <a href="https://www.42urduliz.com/">42 Urduliz</a> programming school.</i></b><br>
-	Start date: 12/april/2021 - after gaining entrance the very first piscine of the Basque Country!
+	<b><i>Projects developed at <a href="https://www.42urduliz.com/">42 Urduliz</a> common core programming school.</i></b><br>
+	Start date: 12/april/2021 - after gaining entrance into the very first piscine of the Basque Country!
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 <h3 align="center">
 	<a href="#%EF%B8%8F-about-42">About 42</a>
 	<span> · </span>
-	<a href="#%EF%B8%8F-skills-developed-at-42cursus">Skills developed at 42cursus</a>
+	<a href="#%EF%B8%8F-skills-developed-at-42cursus">Skills developed at 42 common core</a>
 	<span> · </span>
 	<a href="#42-projects">42 projects</a>
 </h3>
@@ -35,12 +35,12 @@
 	free for whoever is approved in its selection process* - the so-called "Piscine" - becoming
 	thus "cadets" (42's students).
 
-\* For further information about 42's **selection process** (the "Piscine"), please visit the C Piscine repo (collecting work).
+\* For further information about 42's **selection process** (the "Piscine"), please visit 42's official page or send me a message.
 
 
 ![Photo of 42 Urduliz cluster](https://bilbaohiria.com/wp-content/uploads/2020/11/grupo-42-telefonica-urduliz-1024x576.jpg.webp)
 
-## 🛠️ Skills developed at 42cursus
+## 🛠️ Skills developed at 42 common core
 
 ### Hard-skills
 
