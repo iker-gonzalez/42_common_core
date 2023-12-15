@@ -44,3 +44,6 @@
 [submodule "18_webserv"]
 	path = 18_webserv
 	url = https://github.com/iker-gonzalez/webserv
+[submodule "20_ft_transcendence"]
+	path = 20_ft_transcendence
+	url = https://github.com/iker-gonzalez/ft_transcendence.git
