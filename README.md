@@ -56,7 +56,7 @@
     	* Algorithms
      	* Data Structures
       	* Databases
-       	* Virtualization
+        * Virtualization
 
 ### Soft-skills
 
