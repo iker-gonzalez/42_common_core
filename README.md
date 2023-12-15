@@ -95,4 +95,13 @@
 |   16  |  [ft_containers](https://github.com/iker-gonzalez/ft_containers)  |  93%    | Reimplementation of stack, vector and map container types of the C++ standard template library (STL).             |           | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |   17  |  [webserv](https://github.com/iker-gonzalez/webserv)  |  100%    |  Development of HTTP server from scratch using C++. Testing is made with an actual browser.            |  [zcanales](https://github.com/zcanales)         | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg" alt="cpp" width="40" height="40"/> |
 |   18  |  [inception](https://github.com/iker-gonzalez/inception)  |  100%    |  Utilizing a Virtual Machine (VM) and Docker containers, this project orchestrates a secure system architecture with volume management, Docker networking, and TLS encryption, hosting services like NGINX, WordPress, and MariaDB            |          | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> |
+|   19  |  [ft_transcendence](https://github.com/iker-gonzalez/ft_transcendence)  |  100%  |  
+Unleash the ultimate Pong experience with our web app! Secure logins via 42 school OAuth, two-factor authentication, stats tracking, messaging, and live game sessions. Built with TypeScript, ReactJS, NestJS, and PostgreSQL, all neatly containerized with Docker for a seamless experience.           |
+[ngasco]() [zcanales]() [dgerwig]()| 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg" alt="nestjs" width="40" height="40"/>
+|
 
