@@ -41,3 +41,6 @@
 [submodule "19_inception"]
 	path = 19_inception
 	url = https://github.com/iker-gonzalez/inception
+[submodule "18_webserv"]
+	path = 18_webserv
+	url = https://github.com/iker-gonzalez/webserv
