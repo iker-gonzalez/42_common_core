@@ -53,10 +53,10 @@
  	* TypeScript
   	* React
    	* OAuth
-    	* Algorithms
-     	* Data Structures
-      	* Databases
-       	* Virtualization
+    * Algorithms
+    * Data Structures
+    * Databases
+    * Virtualization
 
 ### Soft-skills
 
